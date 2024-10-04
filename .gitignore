@@ -13,3 +13,6 @@ develop-eggs/
 dist/
 downloads/
 eggs/
+
+paths.py
+data/
