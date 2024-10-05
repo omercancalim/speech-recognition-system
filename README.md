@@ -1,10 +1,12 @@
 # Speech Recognition System
 
-This project aims to develop a Speech Recognition System that converts spoken language into text using machine learning techniques.
+This repository contains scripts for processing `.flac` audio files using speech recognition, comparing transcriptions with reference data, and converting `.txt` files to `.csv` format.
 
-## Project Structure
+## Setup
 
-- `data/`: Contains datasets and audio files.
-- `models/`: Stores trained models.
-- `src/`: Source code for the application.
-- `tests/`: Unit and integration tests.
+### Requirements
+
+- **Python 3.x**
+- [**ffmpeg**](https://www.ffmpeg.org/) (required for handling audio files with OpenAI Whisper)
+- **Dev-clean dataset** was used as dataset from [LibriSpeech ASR corpus](http://www.openslr.org/12/) of OpenSLR
+
